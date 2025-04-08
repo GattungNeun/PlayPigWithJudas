@@ -66,7 +66,19 @@ let judasRollCount = 0;
 let currentLine = 0;
 let currentDialogues;
 
-startDialogue(openDialogue);
+let dialogueStarted = false;
+
+judasEl.addEventListener('click', () => {
+
+    if(!dialogueStarted){
+        startDialogue(openDialogue);
+    }
+    else{
+        currentLine++;
+        loadLine();
+    }
+
+});
 
 
 function startDialogue(dialogues){
