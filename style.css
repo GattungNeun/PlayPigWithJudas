@@ -271,3 +271,10 @@ section{
     text-align: center;
     padding: 8px;
 }
+
+@media(max-width: 600px){
+    .dialogue-bubble{
+        top: 40%;
+        right: 15%;
+    }
+}
