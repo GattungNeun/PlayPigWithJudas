@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"/>
+    <title>和猶大玩豬</title>
+</head>
+<body>
+    <div class="screen" id="dialogue-screen">
+        <img src="judas.png" alt="judas" class="dialogue-judas">
+        <p class="dialogue hidden">嗨！</p>
+        <p class="name-tag hidden">猶大</p>
+        <button class="next-btn hidden" id="next-btn">
+            <i class="fa-regular fa-square-caret-down"></i>
+        </button>
+        <button id="start-btn" class="btn start-btn hidden">開始遊戲</button>
+    </div>
+    <div class="screen main" id="game-screen">
+        <section class="player player--0">
+            <h2 class="name" id="name--0">你</h2>
+            <p class="score-label">總分</p>
+            <p class="score" id="score--0">0</p>
+            <div class="icon">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="current">
+                <p class="current-label">積分</p>
+                <p class="current-score" id="current--0">0</p>
+            </div>
+        </section>
+        <section class="player player--1  player--active">
+            <h2 class="name" id="name--1">猶大</h2>
+            <p class="score-label">總分</p>
+            <p class="score" id="score--1">0</p>
+            <div class="icon">
+                <img src="judas-head-usual.png" alt="judas-head" class="judas-head">
+                <div class="dialogue-bubble hidden"></div>
+            </div>
+            <div class="current">
+                <p class="current-label">積分</p>
+                <p class="current-score" id="current--1">0</p>
+            </div>
+        </section>
+        <img src="diceRedAlt1.png" alt="Playing dice" class="dice" />
+        <img src="pig.png" alt="Playing dice" class="pig hidden" />
+        <button class="btn btn--roll">擲骰</button>
+        <button class="btn btn--hold">保留</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
