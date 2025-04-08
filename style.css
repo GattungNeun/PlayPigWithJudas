@@ -29,7 +29,7 @@ body{
 
 .dialogue-judas{
     position: absolute;
-    width: 680px;
+    height: 100%;
     bottom: 0;
     cursor: pointer;
 }
@@ -107,7 +107,7 @@ section{
     border: #CDA47B solid 2px;
     border-radius: 50%;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 30%;
 }
   
 .player {
@@ -134,7 +134,7 @@ section{
 }
 
 .score {
-    font-size: 50px;
+    font-size: 3.2rem;
     color: #9f4125;
     margin: 0;
 }
@@ -160,6 +160,7 @@ section{
     border-radius: 9px;
     color: #fff;
     width: 65%;
+    height: 28%;
     padding: 8px;
     text-align: center;
     transition: all 0.75s;
@@ -175,7 +176,7 @@ section{
 .current-score {
     margin-top: 10px;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 2rem;
 }
   
 /*Absolute positioned elements*/
@@ -186,7 +187,7 @@ section{
     color: white;
     border: none;
     font-family: inherit;
-    font-size: 18px;
+    font-size: 1.1rem;
     cursor: pointer;
     transition: all 0.2s;
     background-color: #9f4125;
@@ -261,7 +262,7 @@ section{
     width: 80px;
     height: 50px;
     position: absolute;
-    top: 50%;
+    top: 45%;
     right: 31%;
     border: solid 2px #382020;
     border-radius: 45%;

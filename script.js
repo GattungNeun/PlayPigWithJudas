@@ -78,7 +78,6 @@ judasEl.addEventListener('click', () => {
         currentLine++;
         loadLine();
     }
-
 });
 
 
@@ -237,6 +236,8 @@ function judasRollDice(){
 
 holdBtn.addEventListener('click', () => {
     playerScore += currentScore;
+    rollBtn.classList.add('hidden');
+    holdBtn.classList.add('hidden');
     holdCurrentScore(playerScore);
 });
 
