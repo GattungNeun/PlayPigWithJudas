@@ -71,6 +71,7 @@ let dialogueStarted = false;
 judasEl.addEventListener('click', () => {
 
     if(!dialogueStarted){
+        dialogueStarted = true;
         startDialogue(openDialogue);
     }
     else{
