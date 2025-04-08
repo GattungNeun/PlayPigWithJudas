@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    touch-action: manipulation;
     font-family: 'Noto Sans TC', sans-serif;
     display: flex;
     flex-direction: column;
